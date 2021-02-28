@@ -112,7 +112,7 @@ try:
     if st.checkbox("(ΣYi)2"):
         st.write(xa[10])
 
-    st.write("Persamaan Linear Regresi")
+    st.write("Regresi Linear Sederhana")
     if st.checkbox("Konstanta a"):
         st.write(xa[0])
     if(st.checkbox("Koefisien b")):
@@ -120,7 +120,7 @@ try:
     if(st.checkbox("Y = a + bx")):
         st.success(xa[9])
 
-    st.write("Nilai Korelasi")
+    st.write("Korelasi Pearson")
     if(st.checkbox("r")):
         st.success(xa[11])
         st.write(xa[14])
